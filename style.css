@@ -42,7 +42,7 @@ body {
   width: 33.333%;
   display: flex;
   justify-content: flex-end;
-  color:#fff;
+  color: #fff;
   padding-right: 40px;
 }
 
@@ -50,6 +50,7 @@ body {
   font-size: 30px;
   width: 33.33%;
 }
+
 .header h1 {
   text-align: center;
   font-weight: 700;
@@ -76,24 +77,30 @@ body {
   width: 400px;
   height: 120px;
   padding-left: 80px;
-
 }
 
-.languages li:first-child, .frameworks li:first-child, .skills li:first-child {
-  color: #9490FF;
+.languages li:first-child, 
+.frameworks li:first-child, 
+.skills li:first-child {
+  color: #9490ff;
   margin-bottom: 10px;
 }
 
-.languages, .frameworks, .skills {
+.languages, 
+.frameworks, 
+.skills {
   list-style: none;
 }
 
-.languages, .frameworks {
-  text-align: center;
-  
+.languages, 
+.frameworks {
+  text-align: center;  
 }
 
-.portfolio, .about, .contact, .mail {
+.portfolio, 
+.about, 
+.contact, 
+.mail {
   display: none;
 }
 
@@ -115,11 +122,15 @@ body {
   line-height: 40px;
 }
 
-.fa-github, .fa-linkedin, .fa-angellist, .fa-twitter, .fa-medium {
+.fa-github, 
+.fa-linkedin, 
+.fa-angellist, 
+.fa-twitter, 
+.fa-medium {
   font-size: 30px;
 }
 
-.icon-bar ul{
+.icon-bar ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -127,19 +138,17 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
   gap: 40px;
-  list-style: none;
 }
 
 .footer {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 70px;
-  
+  margin-bottom: 70px;  
 }
 
 .fa-arrow-down {
-  color: #A2A3AE;
+  color: #a2a3ae;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2px;;
+  letter-spacing: 2px;
 }
