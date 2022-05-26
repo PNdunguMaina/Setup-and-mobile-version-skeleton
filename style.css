@@ -96,22 +96,16 @@ body {
 
 .languages {
   list-style: none;
+  text-align: center;
 }
 
 .frameworks {
   list-style: none;
+  text-align: center;
 }
 
 .skills {
   list-style: none;
-}
-
-.languages {
-  text-align: center;  
-}
-
-.frameworks {
-  text-align: center;  
 }
 
 .portfolio {
