@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   width: auto;
   height: 48px;
+  margin-top: 60px;
 }
 
 .name {
@@ -39,15 +40,22 @@ body {
 
 #side-nav {
   width: 33.333%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
+  color:#fff;
+  padding-right: 40px;
 }
 
+.fa-bars {
+  font-size: 30px;
+  width: 33.33%;
+}
 .header h1 {
   text-align: center;
   font-weight: 700;
   color: #7d73fc;
   line-height: 72px;
-  padding-top: 79px;
+  padding-top: 50px;
 }
 
 .header h2 {
@@ -60,85 +68,78 @@ body {
 }
 
 .header p {
-  margin-top: 40px;
+  margin-top: 20px;
   font-weight: 400;
   text-align: center;
   color: #c8c8d4;
   line-height: 28px;
-  text-size-adjust: 20px;
+  width: 400px;
+  height: 120px;
+  padding-left: 80px;
+
 }
 
-.languages li:first-child {
-  color: #fff;
+.languages li:first-child, .frameworks li:first-child, .skills li:first-child {
+  color: #9490FF;
   margin-bottom: 10px;
 }
 
-.frameworks li:first-child {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.skills li:first-child {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.languages {
+.languages, .frameworks, .skills {
   list-style: none;
 }
 
-.frameworks {
-  list-style: none;
+.languages, .frameworks {
+  text-align: center;
+  
 }
 
-.skills {
-  list-style: none;
-}
-
-.side-nav {
-  display: block;
-  color: #fff;
-}
-
-.portfolio {
+.portfolio, .about, .contact, .mail {
   display: none;
 }
 
-.about {
-  display: none;
-}
-
-.contact {
-  display: none;
-}
-
-.mail {
-  display: none;
-}
-
-.abilities {
+.abilities-1 {
   display: flex;
   justify-content: space-around;
-  color: #9490ff;
-  margin-top: 30px;
+  color: #fff;
+  margin-top: 50px;
   margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.abilities-2 {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.fa-github, .fa-linkedin, .fa-angellist, .fa-twitter, .fa-medium {
+  font-size: 30px;
+}
+
+.icon-bar ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  gap: 40px;
+  list-style: none;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding-right: 10px;
-  color: #fff;
-  margin-top: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  
 }
 
-.footer a {
-  padding-left: 10px;
-  list-style: none;
-}
-
-.footer ul {
-  list-style: none;
-  display: flex;
+.fa-arrow-down {
+  color: #A2A3AE;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2px;;
 }
