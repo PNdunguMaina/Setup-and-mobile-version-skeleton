@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   background-color: #191765;
-  
 }
 
 body {
@@ -18,16 +17,16 @@ body {
 }
 
 .name {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .fa {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .text {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -37,7 +36,7 @@ body {
   font-size: 18px;
   line-height: 16px;
   align-items: flex-start; 
-}
+} 
 
 #side-nav {
   width: 33.333%;
@@ -47,7 +46,7 @@ body {
 .header h1 {
   text-align: center;
   font-weight: 700;
-  color: #7D73FC;
+  color: #7d73fc;
   line-height: 72px;
   padding-top: 79px;
 }
@@ -55,7 +54,7 @@ body {
 .header h2 {
   text-align: center;
   font-weight: 500;
-  color: #EDECFF;
+  color: #edecff;
   line-height: 44px;
   text-size-adjust: 32px;
   padding-top: 67;
@@ -65,23 +64,29 @@ body {
   margin-top: 40px;
   font-weight: 400;
   text-align: center;
-  color: #C8C8D4;
+  color: #c8c8d4;
   line-height: 28px;
   text-size-adjust: 20px;
 }
 
-h4 {
-  color: #FFFFFF;
+.languages p {
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
-.footer {
-  margin-top: 40px;
+.frameworks p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .side-nav {
   display: block;
-  color: #FFFFFF;  
+  color: #ffffff;  
 }
 
 .portfolio {
@@ -103,10 +108,11 @@ h4 {
 .abilities {
   display: flex;
   justify-content: space-around;
-  color: #9490FF;
-  margin-top: 40px;
-  margin-bottom: 20px;
-    
+  color: #9490ff;
+  margin-top: 30px;
+  margin-bottom: 20px; 
+  line-height: 20px ; 
+  text-decoration: none;
 }
 
 .footer {
@@ -114,7 +120,8 @@ h4 {
   justify-content: space-between;
   list-style: none;
   padding-right: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-top: 40px;
 }
 
 .footer a {
@@ -126,9 +133,3 @@ h4 {
   list-style: none;
   display: flex;
 }
-
-
-
-
-
-
