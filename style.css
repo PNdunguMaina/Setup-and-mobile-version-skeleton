@@ -17,16 +17,16 @@ body {
 }
 
 .name {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
 .fa {
-  color: #ffffff;
+  color: #fff;
 }
 
 .text {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  align-items: flex-start; 
+  align-items: flex-start;
 } 
 
 #side-nav {
@@ -69,24 +69,36 @@ body {
   text-size-adjust: 20px;
 }
 
-.languages p {
-  color: #ffffff;
+.languages li:first-child {
+  color: #fff;
   margin-bottom: 10px;
 }
 
-.frameworks p {
-  color: #ffffff;
+.frameworks li:first-child {
+  color: #fff;
   margin-bottom: 10px;
 }
 
-.skills p {
-  color: #ffffff;
+.skills li:first-child {
+  color: #fff;
   margin-bottom: 10px;
+}
+
+.languages {
+  list-style: none;
+}
+
+.frameworks {
+  list-style: none;
+}
+
+.skills {
+  list-style: none;
 }
 
 .side-nav {
   display: block;
-  color: #ffffff;  
+  color: #fff;  
 }
 
 .portfolio {
@@ -111,8 +123,7 @@ body {
   color: #9490ff;
   margin-top: 30px;
   margin-bottom: 20px; 
-  line-height: 20px ; 
-  text-decoration: none;
+  line-height: 20px ;
 }
 
 .footer {
@@ -120,7 +131,7 @@ body {
   justify-content: space-between;
   list-style: none;
   padding-right: 10px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 40px;
 }
 
