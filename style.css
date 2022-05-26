@@ -79,27 +79,53 @@ body {
   padding-left: 80px;
 }
 
-.languages li:first-child, 
-.frameworks li:first-child, 
+.languages li:first-child {
+  color: #9490ff;
+  margin-bottom: 10px;
+}
+
+.frameworks li:first-child {
+  color: #9490ff;
+  margin-bottom: 10px;
+}
+
 .skills li:first-child {
   color: #9490ff;
   margin-bottom: 10px;
 }
 
-.languages, 
-.frameworks, 
+.languages {
+  list-style: none;
+}
+
+.frameworks {
+  list-style: none;
+}
+
 .skills {
   list-style: none;
 }
 
-.languages, 
+.languages {
+  text-align: center;  
+}
+
 .frameworks {
   text-align: center;  
 }
 
-.portfolio, 
-.about, 
-.contact, 
+.portfolio {
+  display: none;
+}
+
+.about {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
 .mail {
   display: none;
 }
@@ -122,10 +148,22 @@ body {
   line-height: 40px;
 }
 
-.fa-github, 
-.fa-linkedin, 
-.fa-angellist, 
-.fa-twitter, 
+.fa-github {
+  font-size: 30px;
+}
+
+.fa-linkedin {
+  font-size: 30px;
+}
+
+.fa-angellist {
+  font-size: 30px;
+}
+
+.fa-twitter {
+  font-size: 30px;
+}
+ 
 .fa-medium {
   font-size: 30px;
 }
