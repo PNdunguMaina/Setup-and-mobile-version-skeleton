@@ -110,7 +110,6 @@ body {
   color: #fff;
   line-height: 40px;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   width: 275px;
   height: 214.15px;
@@ -120,7 +119,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 123px;
   height: 167.33px;
@@ -130,7 +128,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   height: 167.33px;
 }
@@ -139,7 +136,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   height: 167.33px;
 }
@@ -150,7 +146,6 @@ body {
   color: #fff;
   line-height: 40px;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   width: 303px;
 }
@@ -193,7 +188,7 @@ body {
 .tags li {
   width: 25px;
   height: 20px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -257,7 +252,6 @@ body {
 .icon-bar ul {
   display: flex;
   justify-content: center;
-  padding: 0px;
   width: 325px;
   height: 40px;
   list-style: none;
@@ -294,9 +288,6 @@ body {
 
 hr {
   position: absolute;
-  height: 0px;
-  left: 0px;
-  right: 0px;
   top: calc(50% - 0px / 2 + 0.5px);
   border: 1px solid #646369;
 }
@@ -321,7 +312,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   height: 469px;
 }
