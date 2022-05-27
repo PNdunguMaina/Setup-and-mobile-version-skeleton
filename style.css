@@ -71,7 +71,6 @@ body {
   height: 55px;
   font-style: normal;
   font-size: 150%;
-  letter-spacing: 0.37px;
   padding-left: 24px;
   letter-spacing: 2px;
 }
@@ -103,7 +102,6 @@ body {
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
 }
 
 .abilities-1 {
@@ -114,7 +112,7 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 303px;
+  width: 275px;
   height: 214.15px;
 }
 
@@ -124,7 +122,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
-
   width: 123px;
   height: 167.33px;
 }
@@ -135,8 +132,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
-
-  width: 123px;
   height: 167.33px;
 }
 
@@ -146,8 +141,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
-
-  width: 123px;
   height: 167.33px;
 }
 
@@ -162,10 +155,54 @@ body {
   width: 303px;
 }
 
+.socials li {
+  padding: 4px;
+  width: 10px;
+  height: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+.languages li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.frameworks li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.skills li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.tags li {
+  width: 25px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .languages li:first-child {
   color: #9490ff;
   margin-bottom: 10px;
-  width: 107px;
   height: 16px;
   font-weight: 500;
   font-size: 12px;
@@ -201,33 +238,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.languages li {
-  list-style: none;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-}
-
-.frameworks li {
-  list-style: none;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-}
-
-.skills li {
-  list-style: none;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-}
-
 .portfolio {
   display: none;
 }
@@ -255,14 +265,6 @@ body {
   margin-bottom: 20px;
   gap: 40px;
   padding-left: 24px;
-}
-
-.socials li {
-  padding: 4px;
-  width: 10px;
-  height: 40px;
-  list-style: none;
-  align-items: center;
 }
 
 .footer {
@@ -302,11 +304,9 @@ hr {
 .featured-image {
   display: grid;
   grid-column-start: auto;
-  align-items: flex-start;
   padding: 24px;
   gap: 24px;
   height: 729px;
-  width: 327px;
 }
 
 .image {
@@ -324,7 +324,6 @@ hr {
   padding: 0px;
   gap: 24px;
   height: 469px;
-  order: 1;
 }
 
 .right-block h2 {
@@ -335,13 +334,13 @@ hr {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .right-block p {
   width: 327px;
   height: 204px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -356,18 +355,8 @@ hr {
   padding: 10px 12px;
   width: 325px;
   height: 40px;
-  color: #ffffff;
+  color: #fff;
   list-style: none;
-}
-
-.tags li {
-  width: 25px;
-  height: 20px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
 }
 
 .button-frame {
@@ -385,14 +374,12 @@ hr {
 .button-text {
   width: 65px;
   height: 24px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  align-items: center;i
   letter-spacing: 0.03em;
   color: #edecff;
   list-style: none;
