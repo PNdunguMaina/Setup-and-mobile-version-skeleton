@@ -4,6 +4,7 @@ body {
   height: 5415px;
   background-color: #191765;
   font-family: "Roboto", sans-serif;
+  float: left;
 }
 
 #top-navigation {
