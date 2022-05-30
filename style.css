@@ -292,6 +292,7 @@ h3 {
   line-height: 130%;
   align-items: center;
   padding-left: 24px;
+  float: left;
 }
 
 hr {
