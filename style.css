@@ -384,3 +384,66 @@ hr {
 .button-frame:hover {
   background: #6156fa;
 }
+
+.contacts-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 40px;
+  position: absolute;
+  width: 375px;
+  height: 824px;
+  left: 0px;
+  top: 4516px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 164px;
+}
+
+.contacts h6 {
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+  margin-top: 160px;
+  margin-bottom: 18px;
+}
+
+.contacts p {
+  height: 105px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  padding: 24px;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  height: 292px;
+  align-items: center;
+  padding: 0;
+  margin-top: 210px;
+}
+
+.input-area {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
