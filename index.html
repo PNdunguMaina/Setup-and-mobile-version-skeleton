@@ -204,7 +204,11 @@
           with it
         </p>
       </div>
-      <form class="contacts-form" action="#" method="post">
+      <form
+        class="contacts-form"
+        action="https://formspree.io/f/xpzbbewp"
+        method="post"
+      >
         <ul class="input-area">
           <li class="text-area">
             <label for="name"></label>
@@ -212,6 +216,7 @@
               type="text"
               id="name"
               name="user_name"
+              maxlength="30"
               placeholder="Text Input"
             />
           </li>
@@ -228,15 +233,15 @@
 
           <li class="message-area">
             <textarea
-              name="msg"
+              name="message"
               id="msg"
+              maxlength="500"
               placeholder="Enter text here"
             ></textarea>
           </li>
         </ul>
+        <button class="button" type="submit">Send</button>
       </form>
-
-      <a class="button button-frame" href="#">see Project</a>
       <nav class="bottom-nav">
         <div class="icon-bar">
           <ul class="socials">
@@ -281,6 +286,5 @@
       src="https://kit.fontawesome.com/03046ec777.js"
       crossorigin="anonymous"
     ></script>
-    ">
   </body>
 </html>
