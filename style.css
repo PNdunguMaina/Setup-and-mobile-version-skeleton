@@ -447,3 +447,71 @@ hr {
   margin: 0;
 }
 
+.text-area input {
+  width: 327px;
+  height: 48px;
+  padding: 15px 16px 15px 16px;
+}
+
+.text-area input::placeholder {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #81818c;
+  height: 18px;
+}
+
+.email-area input {
+  width: 327px;
+  height: 48px;
+  padding: 15px 16px 15px 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.email-area input::placeholder {
+  height: 18px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #191765;
+}
+
+.message-area textarea {
+  height: 148px;
+  width: 327px;
+  border-radius: 0;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 24px;
+}
+
+.message-area textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #81818c;
+}
+
+.button {
+  margin-top: 100px;
+}
+
+nav p {
+  height: 29px;
+  left: 76px;
+  top: 5346px;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  color: #ebebff;
+}
