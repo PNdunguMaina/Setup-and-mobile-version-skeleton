@@ -42,7 +42,6 @@ body {
 .fa-bars:hover,
 .fa-bars:focus {
   font-size: 40px;
-
 }
 
 .fa {
@@ -82,7 +81,11 @@ body {
   letter-spacing: 2px;
 }
 
-.header h2 {
+.work-title {
+  overflow: hidden;
+}
+
+.work-title h2 {
   text-align: center;
   font-weight: 500;
   color: #edecff;
@@ -94,6 +97,21 @@ body {
   display: flex;
   justify-content: center;
   padding-left: 24px;
+  animation-name: slidein;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .header p {
@@ -373,7 +391,7 @@ hr {
   width: 89px;
   height: 48px;
   text-decoration: none;
-  background: #7d73fc;
+  background-color: #7d73fc;
   text-align: center;
   font-weight: 500;
   font-size: 12px;
@@ -386,10 +404,13 @@ hr {
   padding: 12px;
   gap: 10px;
   letter-spacing: 0.03em;
+  transition: background-color 3s width;
 }
 
-.button-frame:hover {
+.button-frame:hover,
+.button-frame:focus {
   background: #6156fa;
+  width: 100px;
 }
 
 .contacts-area {
@@ -515,16 +536,18 @@ hr {
   padding: 12px;
   width: 89px;
   height: 48px;
-  background: #7d73fc;
+  background-color: #7d73fc;
   font-family: "Roboto", sans-serif;
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  transition: width, background-color;
 }
 
 .button:hover {
-  background: #f0f0f9;
+  width: 100px;
+  background-color: #f0f0f9;
 }
 
 .bottom-nav {
