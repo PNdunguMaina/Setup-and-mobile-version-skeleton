@@ -36,6 +36,13 @@ body {
   left: 7.33px;
   top: 13.58px;
   text-align: end;
+  transition: font-size;
+}
+
+.fa-bars:hover,
+.fa-bars:focus {
+  font-size: 40px;
+
 }
 
 .fa {
