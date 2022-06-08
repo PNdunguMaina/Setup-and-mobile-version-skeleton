@@ -195,86 +195,67 @@
       </div>
     </section>
 
-    <section class="contact-form">
-      <div class="contacts">
-        <h6>CONTACT US</h6>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I'd love to help
-          with it
-        </p>
+    <!-- contact-form -->
+    <form
+    id="contact-form"
+    action="https://formspree.io/f/xpzbbewp"
+    method="post"
+  >
+    <div class="input-area">
+      <div class="user-name">
+        <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="user_name"
+          placeholder="Full name"
+          maxlength="30"
+        />
       </div>
-      <form action="#" method="post">
-        <ul class="form-container">
-          <li class="formname">
-            <label for="name"></label>
-            <input
-              type="text"
-              id="name"
-              name="user_name"
-              placeholder="Text Input"
-            />
-          </li>
-
-          <li class="email">
-            <label for="mail"></label>
-            <input
-              type="email"
-              id="mail"
-              name="user_email"
-              placeholder="jeremy@gmail.com"
-            />
-          </li>
-
-          <li class="msg">
-            <textarea
-              name="msg"
-              id="msg"
-              placeholder="Enter text here"
-            ></textarea>
-          </li>
-        </ul>
-      </form>
-
-      <a class="button-frame button" href="#">see Project</a>
-      <nav class="bottom-nav">
-        <div class="icon-bar">
-          <ul class="socials">
-            <li>
-              <a href="#">
-                <i class="fa fa-github"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <i class="fa fa-angellist"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <i class="fa fa-medium"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <p>emailhere@email.com</p>
-      </nav>
-    </section>
-
+      <div class="mail-area">
+        <label for="mail"></label>
+        <input
+          type="email"
+          id="mail"
+          name="user_email"
+          placeholder="Email Address"
+        />
+      </div>
+      <div class="message-area">
+        <textarea
+          id="message"
+          name="user_message"
+          placeholder="Write your message here"
+          maxlength="500"
+        ></textarea>
+      </div>
+    </div>
+    <button class="button-submit" type="submit">Send</button>
+  </form>
+</section>
+<nav id="bottom-nav">
+  <div class="bottom-border"><hr></div>
+  <div class="social-media">
+    <ul class="social-tags">
+      <li>
+        <img src="GitHub.png" alt="GitHub icon" />
+      </li>
+      <li>
+        <img src="LinkedIn.png" alt="LinkedIn icon" />
+      </li>
+      <li>
+        <img src="Angelist.png" alt="Angelist icon" />
+      </li>
+      <li>
+        <img src="Twitter.png" alt="Twitter icon" />
+      </li>
+      <li>
+        <img src="Medium.png" alt="Medium icon" />
+      </li>
+    </ul>
+    <p class="mail">emailhere@email.com</p>
+  </div>
+</nav>
     <script
       src="https://kit.fontawesome.com/03046ec777.js"
       crossorigin="anonymous"
